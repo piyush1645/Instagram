@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 97%;
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5%;  
+    height: 600px;
+}
+.frontleft{
+    width: 420px;
+    height: 600px;
+}
+.frontright{
+    height: 600px;
+    width: 350px;
+}
+.frontleft img{
+    width: 388px;
+    height: 588px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+.insta{
+    width: 350px;
+    height: 120px;
+}
+.instaphoto
+{
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.info{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    appearance: none;
+    width: 280px;
+    height: 35px;
+    margin: 5px;
+  font-size: smaller;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.1rem;
+  
+
+}
+::placeholder{
+    font-size: 0.9em;
+    padding: 5px;
+}
+button{
+    width: 280px;
+    height: 30px;
+    border-radius: 0.4rem;
+    background-color:#17bbed;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.orouter{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+ 
+}
+.orinner{
+    height: 15px;
+    width: 280px;
+
+display: flex;
+flex-direction: row;
+padding: 10px;
+}
+
+.line1,.line2{
+    height: 2px;
+    background-color: #4b3d3d;
+    width: 120px;
+    padding: 0px;
+    position: relative;
+    top: 7px;
+}
+.mid{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.loginwithface{
+   margin: 5px; 
+   font-size: 1.1em;
+}
+i{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: #0a607a;
+}
+.forgot{
+    margin: 20px;
+    font-size: 0.9em;
+    
+}
+.signup{
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size:medium;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.footer{
+    width: 349px;
+    height: 105px;
+    font-size: 1.1em;
+    text-align: center;
+   position: relative;
+   top: 40px;
+   
+}
+.playstorandmicro{
+    margin-top: 20px;
+} 
+.play,.micro{
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+}
+.forfirstbox{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/*  /////////////////////////////footer/////////////////// */
+.feedback{
+width: 100%;
+height: 50px;
+}
+
+.text{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.text a{
+   width: 50px;
+   height: 15px;
+  font-size: small;
+}
+.meta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: small;
+    color: #0a607a;
+  margin-top: 20px;
+
+}
+select{
+    border: none;
+    width: 90px;
+    color: #0a607a;
+    margin-right: 20px;
+margin-bottom: 100px;
+}
+.sem
+{
+    margin-right: 10px;
+}
+@media(width<875px){
+    .frontleft {
+      position: relative;
+      left: -3000px;
+      width: 0%;
+      height: 0%;
+    }
+    .section{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .frontright{
+        height: 600px;
+        width: 350px;
+
+    }
+    .animation_imgs{
+        height: 0px;
+        width: 0px;
+        opacity: 0;
+    }
+    .frontleft img{
+        
+            height: 0px;
+            width: 0px;
+            opacity: 0;
+        
+    }
+    .animation{
+        opacity: 0;
+    }
+
+  }
+  /* animation */
+  #anim4{
+    width: 403px;
+    height: 588px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+    z-index: 1;
+}
+.animation{
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.visible{
+    opacity: 1;
+}
+.animation_imgs{
+    position: relative;
+    left: 115px;
+    top: 25px;
+}
+.animation_imgs img{
+    width: 250px;
+    height: 540px;
+    overflow: hidden;
+    position: absolute;
+}
+
+  
+
