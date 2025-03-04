@@ -44,8 +44,8 @@ This project is a clone of the **Instagram Login Page** built using **HTML**, **
 
 ## Screenshots
 
-![Instagram Login Clone](./screenshot.png)  
-*(Insert a screenshot of your project here)*
+![Instagram Login Clone](https://github.com/piyush1645/Instagram/blob/70515af067176ca7dda26cf4f50d82351222aa87/instagramss.png)
+
 
 ## Future Enhancements
 
@@ -57,19 +57,8 @@ This project is a clone of the **Instagram Login Page** built using **HTML**, **
 
 Feel free to fork this repository, open issues, or submit pull requests for improvements. Contributions are always welcome!
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 
 If you have any questions or need further clarifications, feel free to reach out. Happy coding! ✨
 ```
 
-### Explanation:
-- **Project Overview**: Describes what the project is about and the key features you implemented.
-- **Project Structure**: Provides an outline of the folder structure, which helps others understand the layout.
-- **How to Use**: Step-by-step instructions for anyone who wants to clone the repository and run the project locally.
-- **Technologies Used**: Lists the key technologies you used in the project.
-- **Screenshots**: You can add an image of your project to give users a preview.
-- **Future Enhancements**: Gives ideas on how the project can be improved in the future.
