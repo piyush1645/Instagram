@@ -1,6 +1,4 @@
-Here's a **README.md** template for your **Instagram Login Page Clone** project:
 
-```markdown
 # Instagram Login Page Clone
 
 This project is a clone of the **Instagram Login Page** built using **HTML**, **CSS**, and **JavaScript**. The purpose of this project is to replicate the login page of Instagram with a responsive design, and to practice front-end development skills. Additionally, JavaScript is used for **form validation** and a **sliding image carousel** feature.
